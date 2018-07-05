@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/kittys"
+    android:backgroundTint="#eeebed"
+    android:backgroundTintMode="screen">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:fontFamily="casual"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meredith and Olivia Swift"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@mipmap/mno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textStyle="italic"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taylor's beloved scottish folds"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:fontFamily="casual"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meredith"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:scaleType="fitCenter"
+
+        android:src="@mipmap/mer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taylor adopted Dr Meredith 'Mere-Bear' Grey Swift on Halloween in 2011. Since then, 'The Princess of Kitty Town' has lived a life filled with endless stress and exhaustion. \n\nShe can be found lying around with Taylor watching TV shows,
+snubbing various friends of Taylor's, judging Taylor whenever she gets excited about anything, pretending she doesn't love her sister Olivia (but cuddling with her when she thinks no one is watching), refusing to take part
+in interviews with Taylor, waking Taylor up at 3am on days she has a busy schedule, and having strange people on the internet spread rumours about her-just because she's not as photogenic as Olivia (the nerve!)."/>
+
+    <TextView
+        android:fontFamily="casual"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olivia"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:scaleType="fitCenter"
+
+        android:src="@mipmap/ol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adopted by Taylor in June 2014, Detective Olivia 'Dibbles' Benson Swift is Taylor's 'Sweet Baby Princess of Meow Town'. \n\nOlivia has always been more sociable than her sister, and gets along well with many of Taylor's friends. She does however take issue with other things- namely, having to get into her carrier. Olivia hates her carrier so much
+that Taylor used to carry her around New York, in her arms, like the baby she was.
+\n\nSince then, Olivia has starred in many of Taylor's Instagram posts, commercials, interviews and even her Blank Space music video!
+\n\nIn her free time, Olivia loves to chew on strange objects, such as Taylor's various music awards, but she loves trying to get her big sister, Meredith's attention even more."/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

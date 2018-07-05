@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Watch some of Taylor's top music videos from over the years!"
+    android:background="@color/header"
+    android:textAlignment="center"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:textColor="@android:color/white"
+    android:textSize="30sp"
+
+    android:fontFamily="sans-serif-light">
+
+</TextView>

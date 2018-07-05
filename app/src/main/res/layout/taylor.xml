@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@mipmap/trepp" android:backgroundTint="#8000" android:backgroundTintMode="src_atop">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who's Taylor Swift anyway?"
+        android:textAlignment="center"
+        android:padding="30dp"
+        android:textSize="40sp"/>
+    <TextView
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rep"/>
+    </LinearLayout>
+
+</ScrollView>

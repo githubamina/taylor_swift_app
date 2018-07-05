@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.theswiftappv2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/rlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:label="The Swift App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cats" android:label="Kitties"></activity>
+        <activity android:name=".menu" android:label="Main Menu"></activity>
+        <activity android:name=".music" android:label="Music Videos">
+        </activity>
+        <activity android:name=".tours" android:label="Tours"></activity>
+        <activity android:name=".squad" android:label="Andrea Swift"></activity>
+        <activity android:name=".taylor" android:label="Taylor."></activity>
+        <activity android:name=".reputation" android:label="Reputation"></activity>
+    </application>
+
+</manifest>

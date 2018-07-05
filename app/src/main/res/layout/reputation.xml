@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent"
+    android:background="@mipmap/repbg" android:backgroundTint="#8000" android:backgroundTintMode="src_atop">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TS6"
+        android:textAlignment="center"
+        android:padding="40dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"/>
+    <ImageView
+        android:padding="30dp"
+        android:background="@android:color/black"
+        android:backgroundTint="#8000"
+        android:backgroundTintMode="src_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/reputation"/>
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Taylor's highly anticipated 6th studio album, Reputation has finally arrived!
+\n\nAfter taking some time away from the spotlight, Taylor returned to the music scene in August 2017 with lead single
+'Look What You Made Me Do' which alone broke several major records, including:
+\nmost Spotify streams in a 24-hour period, number one on US Billboard Hot 100 with most sales and streams, and most YouTube views in 24 hours. The Reputation album
+has continued to bring more success with it's release on November 10th, topping charts worldwide and breaking several sales records."/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/shop"/>
+
+    <TextView
+        android:id="@+id/shopLink"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Want to slay in snake themed Reputation merch? Shop here!"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/snakegirl"/>
+
+    <TextView
+        android:id="@+id/tourLink"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to find a soon to be snake pit near you!"/>
+
+    <ImageView
+        android:scaleType="centerInside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dwoht"/>
+
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:id="@+id/repAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have a listen to this bop off Reputation"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+    <Button
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_gravity="left"/>
+    <Button
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

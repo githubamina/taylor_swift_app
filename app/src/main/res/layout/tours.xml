@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@mipmap/tour"  android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_atop" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Taylor Swift Experience"
+        android:textAlignment="center"
+        android:padding="30dp"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Fearless Tour\n(2009-10)"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tfearless"
+        android:padding="20dp"/>
+    <TextView
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taylor's debut concert tour was launched in support of her second studio album Fearless (2008).
+The tour kicked off in Evansville, Indiana on April 23, 2009 at Roberts Municipal Stadium. In honor of the kickoff of the sold-out tour, Taylor was presented the key
+to the city of Evansville and the City Council President declared Thursday, April 23, 2009 Taylor Swift Day.
+\n\nThe show featured a theatrical presentation of graphics, sets and visual elements all designed by Taylor. It ran nearly 90 minutes and showcased Taylor playing
+five different guitars as well as the piano. The show featured multiple costume changes and a fairy-tale castle illuminated by more than a million lumens of light.
+The tour grossed $63,705,590 from 89 shows and an audience of 1,138,977." />
+    <TextView
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Speak Now World Tour\n(2011-12)"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tspeaknow"
+        android:padding="20dp"/>
+    <TextView
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launched in support of her third studio album, The Speak Now Tour visited Asia, Europe, North America, and Oceania.
+The tour marked Taylor's first tour to perform in stadiums. During the North American and Australasian tour legs, Taylor wrote different song lyrics, and occasionally
+quotes from famous speeches and movies, on her left arm for each show. She has said that the lyrics were like a nightly mood ring for her.
+At the conclusion of 2011, the tour was placed fourth on Pollstar's annual 'Top 25 Worldwide Tours', earning $104.2 million with 100 shows. This made it the highest-grossing female and solo tour of 2011."
+ />
+    <TextView
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Red Tour\n(2013-14)"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tred"
+        android:padding="20dp"/>
+
+    <TextView
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Red tour began on March 13, 2013 in Omaha, Nebraska and concluded on June 12, 2014 in Singapore.
+Taylor surprised fans throughout the tour with secret special guests who she would perform a duet with, including: Patrick Stump, B.o.B, Danny O'Donoghue, Ellie Goulding and Ed Sheeran.
+\n\nTaylor became the first solo female artist in 20 years to headline a national stadium tour through Australia, with the last being Madonna's The Girlie Show World Tour in 1993.
+She also performed to a crowd of over 40,900 fans at the Allianz Stadium in Sydney, Australia, becoming the first female artist in history to sell out the stadium since it was opened in 1988.
+The Red Tour also became the highest-grossing tour by a country artist in history, bringing in an overall gross of $150 million surpassing the prior country artist record held by double-billed Tim McGraw and Faith Hill Soul2Soul II Tour that brought in $141 million."
+        />
+
+    <TextView
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The 1989 World Tour\n(2015)"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/t1989"
+        android:padding="20dp"/>
+
+    <TextView
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" In support of her fifth studio album, the 1989 World Tour began on May 5, 2015, in Tokyo, Japan and concluded on December 12, 2015 in Melbourne, Australia, the day before her 26th birthday.
+The tour became Taylor's highest grossing and most attended tour to date, mobilizing 2,278,647 fans and $250,733,097 revenue.
+Taylor partnered with Apple Music to release a concert film entitled The 1989 World Tour Live on December 20. It was filmed at ANZ Stadium in Sydney on November 28 with 75,980 attendees.
+\n\nThe tour grossed over US$250 million and became the highest-grossing tour worldwide in 2015. It grossed over US$199.4 million in North America alone, breaking the previous all-time high of $162 million
+set by The Rolling Stones in 2005, and Taylor became the first female artist in music history to hold this record.
+The tour also gave Taylor her third notch in the list of the 25 highest-grossing North American tours- the most ever for a woman, and third of all time." />
+
+    <TextView
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taylor Swift's Reputation Stadium Tour\n(2018...)"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/trep"
+        android:padding="20dp"/>
+    <TextView
+        android:textColor="#000"
+        android:padding="20dp"
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coming soon..."
+        android:textAlignment="center"/>
+
+</LinearLayout>
+</ScrollView>
